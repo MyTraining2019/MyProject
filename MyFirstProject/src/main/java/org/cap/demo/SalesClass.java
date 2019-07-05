@@ -7,7 +7,7 @@ public class SalesClass {
 	public int show() {
 		
 		int ans=1;
-		for(int i=0;i<=arr.length;i++) {
+		for(int i=0;i<arr.length;i++) {
 			ans*=arr[i];
 		}
 		System.out.println("Multiplication Value:" + ans);

@@ -4,6 +4,10 @@ public class MainClass {
 
 	public static void main(String[] args) {
 	
+		String[] str= {"tom","jerry","jack","sam","kamal"};
+		for(String s:str)
+			System.out.println(s);
+		
 		System.out.println("Welcome! Sales Application!");
 		SalesClass obj=new SalesClass();
 		obj.show();
