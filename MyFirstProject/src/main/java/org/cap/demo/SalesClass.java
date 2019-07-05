@@ -5,12 +5,13 @@ public class SalesClass {
 	private int[] arr= {1,34,56,7};
 	
 	public int show() {
-		int sum=0;
-		for(int num:arr) {
-			sum+=num;
-			System.out.println(num);
+		
+		int ans=1;
+		for(int i=0;i<=arr.length;i++) {
+			ans*=arr[i];
 		}
-		return sum;
+		System.out.println("Multiplication Value:" + ans);
+		return ans;
 	}
 
 }
